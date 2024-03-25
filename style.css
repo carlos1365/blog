@@ -1,0 +1,413 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root{
+
+    font-size: 62.5%;
+    font-family: "Mulish", sans-serif;
+
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    background-color: #387E96;
+    padding: 1.6rem 2.5rem 1.6rem 2.5rem;
+    gap: 2.5rem;
+    justify-content: center;
+    width: 40.4rem;
+    margin: 0 auto 0;
+    text-align: center;
+
+}
+
+.input-1 label{
+
+    width: 0.1rem;
+    height: 0.1rem;
+    overflow: hidden;
+    position: absolute;
+}
+
+.input-1 input::placeholder{
+
+    color: #FFFFFF;
+    padding: 1.2rem 7.2rem 1.2rem 1.4rem;
+    font-size: 1.6rem;
+ 
+}
+
+.input-1 input{
+
+    width: 24.0rem;
+    height: 4.0rem;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: #93c0cf;
+
+}
+
+.img-1{
+
+    height: 4.0rem;
+    width: 4.0rem;
+
+}
+
+.img-2{
+
+    height: 4.2rem;
+    width: 4.2rem;
+
+}
+
+.image-1{
+    
+    display: flex;
+    width: 40.4rem;
+    height: 21.9rem;
+    margin: 0 auto 3.1rem;
+    
+}
+
+.title {
+
+    text-align: center;
+    margin-bottom: 0.8rem;
+    margin-right: 2.2rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #202024;
+
+}
+
+.title h1{
+
+    width: 34.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3.1rem auto 0.8rem;
+   
+
+}
+
+
+
+.button{
+
+    display: flex;
+   
+    padding: 0.8rem 31.6rem 3.1rem 7.0rem;
+    gap: 1.3rem;
+    justify-content: center;
+    
+}
+
+
+.text{
+
+    font-size: 1.6rem;
+    width: 38.2rem;
+    font-family: "Mulish", sans-serif;
+    align-items: center;
+    line-height: 160%;
+    justify-content: center;
+    margin: 0 auto 0;
+    color: #121214;
+    padding: 0 3.0rem 0 3.0rem;
+  
+  
+}
+
+.muryo h2{
+
+    font-weight: 800;
+    margin: 3.1rem 11.0rem 3.2rem 2.2rem;
+    justify-content: center;
+    display: flex;
+    font-size: 2.4rem;
+    color: #202024;
+    font-family: "Mulish", sans-serif;
+
+}
+
+.app{
+    
+   display: flex;
+   width: 38.4rem;
+   gap: 1.6rem;
+   margin: 3.2rem auto 0;
+   padding: 0 0 0 2.5rem;
+
+}
+
+.loop{
+
+    display: flex;
+    width: 38.4rem;
+    gap: 1.6rem;
+    margin: 3.2rem auto 0;
+    padding: 0 0 0 2.5rem;
+ 
+}
+
+.loop-1{
+
+    display: flex;
+    width: 38.4rem;
+    gap: 1.6rem;
+    margin: 3.2rem auto 0;
+    padding: 0 0 0 2.5rem;
+ 
+}
+
+.loop-2{
+
+    display: flex;
+    width: 38.4rem;
+    gap: 1.6rem;
+    margin: 2.0rem auto 0;
+    padding: 0 0 0 2.5rem;
+ 
+}
+
+.loop-3{
+
+    display: flex;
+    width: 38.4rem;
+    gap: 1.6rem;
+    margin: 3.2rem auto 3.9rem;
+    padding: 0 0 0 2.5rem;
+ 
+}
+
+.loop img{
+
+    width: 12.1rem;
+    height: 9.2rem;
+ 
+  
+}
+
+.loop-2 img{
+
+    width: 12.1rem;
+    height: 9.2rem;
+ 
+}
+
+.loop-3 img{
+
+    width: 12.1rem;
+    height: 9.2rem;
+ 
+}
+
+.loop-1 img{
+
+
+    width: 12.1rem;
+    height: 8.4rem;
+ 
+}
+
+.app img{
+
+   width: 12.1rem;
+   height: 9.2rem;
+
+}
+
+.ppa p{
+
+    font-size: 1.4rem;
+    width: 21.6rem;
+    line-height: 160%;
+
+}
+
+.ppa h4{
+
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 160%;
+
+}
+
+footer{
+
+    display: flex;
+    background-color: #387E96;
+    justify-content: center;
+    margin: 0 auto 0;
+    width: 43.4rem;
+    text-align: center;
+    padding: 2.6rem 1.6rem 2.6rem 1.6rem;
+
+}
+
+footer p{
+
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-family: "Mulish", sans-serif;
+
+}
+
+@media (min-width:1024px){
+
+    .blog{
+    
+        display: grid;
+        grid-template-columns: 1fr 38.4rem;
+        width: 1024px;
+    
+    }
+    
+    .poin{
+    
+       padding-left: 0;
+       margin-left: 0;
+       height: 500px;
+
+    }
+
+    .loop-2{
+
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+
+    .loop-2 img{
+
+        width: 15.1rem;
+
+    }
+    
+    .loop{
+
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+
+    .loop img{
+
+        width: 15.1rem;
+
+    }
+    .loop-1{
+
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+
+    .loop-1 img{
+
+        width: 15.1rem;
+
+    }
+
+    .loop-3{
+
+        margin-left: 0;
+        padding-left: 0px;
+
+    }
+
+    .loop-3 img{
+
+        width: 15.1rem;
+
+    }
+
+    .app{
+
+       padding: 0;
+
+    }
+
+    .app img{
+
+        width: 15.1rem;
+
+    }
+    
+    .image-1{
+    
+        width: 80.0rem;
+        height: 40.0rem;
+        margin-left: 4.0rem;
+        margin-top: 4.4rem;
+        padding: 0;
+      
+    }
+
+    .muryo h2{
+
+        margin-top: 4.4rem;
+
+    }
+    
+    
+    .text{
+    
+        width: 85.5rem;
+        height: 36.4rem;
+        font-size: 1.6rem;
+        line-height: 160%;
+        font-family: "Mulish", sans-serif;
+        margin-bottom: 3.9rem;
+        margin-left: 1.0rem;
+     
+    }
+    
+    .title{
+    
+        display: flex;
+        margin-left: 4.0rem;
+        align-items: center;
+    
+    }
+    
+    .title h1{
+    
+        height: 3.8rem;
+        width: 34.2rem;
+    
+    }
+    
+    .button{
+    
+        margin-left: 28.6rem;
+       
+    
+    }
+
+    footer{
+
+        width: 100%;
+
+    }
+
+    header{
+
+        width: 100%;
+    }
+        
+    }
+    
+
+
+
+
